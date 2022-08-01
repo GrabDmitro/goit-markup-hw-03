@@ -13,12 +13,14 @@
 
   <body>
     <!--Site header-->
-    <header class="site-head">
-      <nav class="site-navigation">
-        <a href="" class="logo link">Web<span class="logo-part-2">Studio</span>
-        <ul class="header-list list">
+    <header class="head">
+      <div class="container site-head">
+      <a href="" class="logo link">Web<span class="logo-part-2">Studio</span></a>
+      <nav class="">
+        
+        <ul class="site-navigation list">
           <li class="header-item">
-            <a href="" class="navigation-link link current">Студія</a>
+            <a href="./index.html" class="navigation-link link current">Студія</a>
           </li>
           <li class="header-item">
             <a href="./portfolio.html" class="navigation-link link"
@@ -36,45 +38,49 @@
             >info@devstudio.com</a
           >
         </li>
-        <li>
+        <li class="contact">
           <a href="tel:+380961111111" class="contact-link link"
             >+38 096 111 11 11</a
           >
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <!-- Hero -->
-      <section class="hero">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+      <section class="hero section container">
+        <div class="container">
+        <h1 class="hero-title">Ефективні рішення для<br> вашого бізнесу</h1>
         <button type="button" class="order-btn">Замовити послугу</button>
+      </div>
       </section>
 
       <!--benefits-->
-      <section class="benefits">
+      <section class="section benefits">
+        <div class="container">
         <h2 class="hidden-title">Переваги</h2>
-        <ul class="list">
-          <li>
+        <ul class="benefits-list list">
+          <li  class="benefit-child">
             <h3 class="benefits-header">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="benefits-item">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="benefit-child">
             <h3 class="benefits-header">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="benefits-item">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="benefit-child">
             <h3 class="benefits-header">ПЛАНУВАННЯ</h3>
             <p class="benefits-item">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="benefit-child">
             <h3 class="benefits-header">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="benefits-item">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -82,26 +88,27 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <!--Examples-->
-      <section class="examples">
+      <section class="section container">
         <h2 class="examlpes-head">Чим ми займаємося</h2>
-        <ul class="list">
-          <li>
+        <ul class="list examples">
+          <li class="example-item">
             <img
               src="./images/keyboard.jpg"
               alt="робота за клавіатурою"
               width="370"
             />
           </li>
-          <li>
-            <img
+          <li class="example-item">
+            <img 
               src="./images/phone.jpg"
               alt="робота на телефоні"
               width="370"
             />
           </li>
-          <li>
+          <li class="example-item">
             <img
               src="./images/tablet.jpg"
               alt="робота за планшетом"
@@ -111,10 +118,11 @@
         </ul>
       </section>
       <!--Team-->
-      <section class="team">
+      <section class="team section ">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list tim-list">
+          <li class="team-child">
             <img
               src="./images/productdesigner.jpg"
               alt="Product Designer"
@@ -123,7 +131,7 @@
             <h3 class="team-name">Ігор Дем'яненко</h3>
             <p class="team-description">Product Designer</p>
           </li>
-          <li>
+          <li class="team-child">
             <img
               src="./images/frontenddeveloper.jpg"
               alt="Frontend Developer"
@@ -132,23 +140,25 @@
             <h3 class="team-name">Ольга Рєпіна</h3>
             <p class="team-description">Frontend Developer</p>
           </li>
-          <li>
+          <li class="team-child">
             <img src="./images/marketing.jpg" alt="Marketing" width="270" />
             <h3 class="team-name">Микола Тарасов</h3>
             <p class="team-description">Marketing</p>
           </li>
-          <li>
+          <li class="team-child">
             <img src="./images/uidesigner.jpg" alt="UI Designer" width="270" />
             <h3 class="team-name">Михайло Єрмаков</h3>
             <p class="team-description">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!--footer-->
-    <footer class="bottom">
-      <a href="" class="logo link">Web<span class="logo-footer">Studio</span>
-      <address>
+    <footer class="bottom section ">
+      <div class="container">
+      <a href="" class=" logo link">Web<span class="logo-footer">Studio</span></a>
+      <address class="bottom-address">
         <ul class="list">
           <li>
             <a
@@ -163,12 +173,13 @@
             >
           </li>
           <li>
-            <a href="tel:+38 099 111 11 11" class="bottom-contact link"
+            <a href="tel:+380991111111" class="bottom-contact link"
               >+38 099 111 11 11</a
             >
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>
